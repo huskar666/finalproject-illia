@@ -12,7 +12,9 @@
     width: 100%;
 
     & .header__div--rectangle{
-
+        width: 100%;
+        height: 102px;
+        background: linear-gradient(180deg, rgba(13, 13, 13, 0.19) 0%, rgba(14, 14, 14, 0.8) 100%);
     }
     
     & .header__div--logo{
@@ -91,8 +93,279 @@
     }
 }
 main{
+    background-color: black;
     & .main__container{
         background-color: black;
         width: 100%;
+        max-width: 946px;
+        margin: 0 auto;
+        background-size: cover;
+        & .main__container--div{
+            max-width: 946px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+
+            & .main__container--div--card{
+                max-width: 196px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                position: relative;
+
+
+                & .main__container--div--card--photo--svg{
+                    z-index: 1000;
+                    padding-left: 41px;
+                    position: absolute;
+                }
+                
+                & .main__container--div--card--h3{
+                    font-family: Montserrat;
+                    font-weight: 700;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    color: #DC56C5;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+                & .main__container--div--card--p{
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    color: white;
+                    padding-bottom: 5px;
+                }
+                & .main__container--div--card--container{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    & .main__container--div--card--container--p1{
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: white;
+                        padding-left: 3px;
+                    }
+                }
+            }
+        }
+        & .main__container--div1{
+            max-width: 946px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            padding-top: 50px;
+
+            & .main__container--div--card{
+                max-width: 196px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                position: relative;
+
+
+                & .main__container--div--card--photo--svg{
+                    z-index: 1000;
+                    padding-left: 41px;
+                    position: absolute;
+                    padding-bottom: 13px;
+                }
+                
+                & .main__container--div--card--h3{
+                    font-family: Montserrat;
+                    font-weight: 700;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    color: #DC56C5;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+                & .main__container--div--card--p{
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    color: white;
+                    padding-bottom: 5px;
+                }
+                & .main__container--div--card--container{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    & .main__container--div--card--container--p1{
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: white;
+                        padding-left: 3px;
+                    }
+                }
+            }
+        }
+        & .main__container--div2{
+            max-width: 946px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+
+            & .main__container--div--card{
+                max-width: 196px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                position: relative;
+
+
+                & .main__container--div--card--photo--svg{
+                    z-index: 1000;
+                    padding-left: 41px;
+                    position: absolute;
+                }
+                
+                & .main__container--div--card--h3{
+                    font-family: Montserrat;
+                    font-weight: 700;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    color: #DC56C5;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+                & .main__container--div--card--p{
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    color: white;
+                    padding-bottom: 5px;
+                }
+                & .main__container--div--card--container{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    & .main__container--div--card--container--p1{
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: white;
+                        padding-left: 3px;
+                    }
+                }
+            }
+        }
+        & .main__container--div3{
+            max-width: 946px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+
+            & .main__container--div--card{
+                max-width: 196px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                position: relative;
+
+
+                & .main__container--div--card--photo--svg{
+                    z-index: 1000;
+                    padding-left: 41px;
+                    position: absolute;
+                }
+                
+                & .main__container--div--card--h3{
+                    font-family: Montserrat;
+                    font-weight: 700;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    color: #DC56C5;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+                & .main__container--div--card--p{
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    color: white;
+                    padding-bottom: 5px;
+                }
+                & .main__container--div--card--container{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    & .main__container--div--card--container--p1{
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: white;
+                        padding-left: 3px;
+                    }
+                }
+            }
+        }
     }
 }
