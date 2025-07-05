@@ -416,12 +416,13 @@ main .main__container .main__container--div4 .main__container--div--card .main__
   padding-left: 3px;
 }
 main .main__container .main__container--nav {
-  max-width: 233px;
+  max-width: 280px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
+  align-items: end;
 }
 main .main__container .main__container--nav .main__container--nav-button1 {
   padding-top: 5px;
@@ -430,8 +431,8 @@ main .main__container .main__container--nav .main__container--nav-button1 {
   padding-right: 12px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
-  border-color: #DC56C5;
-  color: #DC56C5;
+  border-color: rgba(255, 165, 0, 0);
+  color: white;
   background-color: rgba(255, 165, 0, 0);
   font-family: Montserrat;
   font-weight: 400;
@@ -448,8 +449,8 @@ main .main__container .main__container--nav .main__container--nav-button2 {
   padding-right: 12px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
-  border-color: #DC56C5;
-  color: #DC56C5;
+  border-color: rgba(255, 165, 0, 0);
+  color: white;
   background-color: rgba(255, 165, 0, 0);
   font-family: Montserrat;
   font-weight: 400;
@@ -466,8 +467,8 @@ main .main__container .main__container--nav .main__container--nav-button3 {
   padding-right: 12px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
-  border-color: #DC56C5;
-  color: #DC56C5;
+  border-color: rgba(255, 165, 0, 0);
+  color: white;
   background-color: rgba(255, 165, 0, 0);
   font-family: Montserrat;
   font-weight: 400;
@@ -484,8 +485,8 @@ main .main__container .main__container--nav .main__container--nav-button4 {
   padding-right: 12px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
-  border-color: #DC56C5;
-  color: #DC56C5;
+  border-color: rgba(255, 165, 0, 0);
+  color: white;
   background-color: rgba(255, 165, 0, 0);
   font-family: Montserrat;
   font-weight: 400;
@@ -502,8 +503,8 @@ main .main__container .main__container--nav .main__container--nav-button5 {
   padding-right: 12px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
-  border-color: #DC56C5;
-  color: #DC56C5;
+  border-color: rgba(255, 165, 0, 0);
+  color: white;
   background-color: rgba(255, 165, 0, 0);
   font-family: Montserrat;
   font-weight: 400;
@@ -520,8 +521,8 @@ main .main__container .main__container--nav .main__container--nav-button6 {
   padding-right: 12px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
-  border-color: #DC56C5;
-  color: #DC56C5;
+  border-color: rgba(255, 165, 0, 0);
+  color: white;
   background-color: rgba(255, 165, 0, 0);
   font-family: Montserrat;
   font-weight: 400;
@@ -554,4 +555,9 @@ main .main__container .main__container--nav .main__container--nav--dot {
   color: #939393;
   margin-bottom: 19px;
   margin-top: 80px;
+}
+
+.main__container--nav button.active {
+  border-color: #DC56C5 !important;
+  color: #DC56C5 !important;
 }
