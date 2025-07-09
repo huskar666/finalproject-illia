@@ -1,0 +1,136 @@
+@media (max-width: 1100px){
+    body{
+         .header{
+        &__div{
+            background-image: url(../img/photo1100.png);
+
+            &--logo{
+                width: 151px;
+            }
+            &--navigation{
+
+                &--title{
+                    font-family: Montserrat;
+                    font-weight: 900;
+                    font-size: 30px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    max-width: 353px;
+                }
+            }
+        }
+   }
+
+   .main{
+
+    &__container{
+        grid-template-columns: 1fr 1fr 1fr !important;
+        max-width: 610px !important;
+        row-gap: 45px;
+        column-gap: 13px;
+    }
+   }
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        .header{
+
+            &__div{
+                background-image: url(../img/photo768.png) !important;
+
+                &--logo{
+                    width: 105px !important;
+                }
+
+                &--navigation{
+
+                    &--title{
+                        max-width: 212px !important;
+                        font-size: 18px !important;
+                        padding-top: 78px !important;
+                    }
+
+                    &--inputs{
+                        flex-direction: column !important;
+                        align-items: center !important;
+
+                        &--input{
+                            margin-bottom: 25px !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .main{
+
+        &__container{
+            grid-template-columns: 1fr 1fr !important;
+            max-width: 280px !important;
+            row-gap: 30px !important;
+            column-gap: 4px !important;
+
+            &--nav{
+
+                &-button1{
+                    font-size: 14px !important;
+                }
+                                &-button2{
+                    font-size: 14px !important;
+                }
+                                &-button3{
+                    font-size: 14px !important;
+                }
+                                &-button4{
+                    font-size: 14px !important;
+                }
+                                &-button5{
+                    font-size: 14px !important;
+                }
+                                &-button6{
+                    font-size: 14px !important;
+                }
+            }
+            &--div{
+                &--card{
+                    max-width: 138px !important;
+
+                    &--h3{
+                        font-size: 14px !important;
+                    }
+
+                    &--p{
+                        font-size: 14px !important;
+                    }
+                    &--p1{
+                        font-size: 12px !important;
+                    }
+                    &--photo{
+
+                        &--img{
+                            max-width: 128px !important;
+                        }
+
+                        &--svg{
+                            padding-left: 29px !important;
+
+                            &--kartinka{
+                                max-width: 109px !important;
+                                padding-bottom: 35px !important;
+                            }
+                        }
+                    }
+            }
+            }
+        }
+    }
+    .footer{
+        max-width: 252px !important;
+        font-size: 14px !important;
+    }
+    }
+}
+    
