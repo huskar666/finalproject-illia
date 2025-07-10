@@ -27,7 +27,6 @@
   }
   .modal__content--box--button {
     font-size: 16px !important;
-    border-color: #DC56C5 !important;
   }
   .modal__content .modal__close {
     left: 553px !important;
@@ -129,6 +128,11 @@
     border-top-left-radius: 150px !important;
     border-bottom-right-radius: 150px !important;
   }
+  .modal__content--box--button {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    max-width: 234px !important;
+  }
   .modal__content .modal__close {
     left: 230px !important;
   }
@@ -149,6 +153,23 @@
   .modal__content--container--box--div {
     align-items: center !important;
     max-width: 243px !important;
+  }
+  .modal__content--container--box--div--button {
+    margin: 0 auto !important;
+  }
+  .modal__content--container--box--div--title {
+    text-align: center !important;
+  }
+  .modal__content--container--box--div--text {
+    text-align: center !important;
+  }
+  .modal__content--container--box--div--in {
+    max-width: 224 px !important;
+    width: 100% !important;
+  }
+  .modal__content--container--box--div--text1 {
+    font-size: 16px !important;
+    padding-left: 13px !important;
   }
 }
 * {
@@ -396,6 +417,9 @@ main .main__container--nav--dot {
   line-height: 100%;
   letter-spacing: 0%;
 }
+.modal__content--box--button:hover {
+  border-color: #DC56C5;
+}
 .modal__content--container {
   margin: 0 auto;
   max-width: 870px;
@@ -424,6 +448,18 @@ main .main__container--nav--dot {
   padding-top: 7px;
   padding-bottom: 20px;
 }
+.modal__content--container--box--div--in1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 215px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-top: 7px;
+  padding-bottom: 20px;
+}
 .modal__content--container--box--div--button {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -433,6 +469,8 @@ main .main__container--nav--dot {
   background-color: #4C00FE;
   color: white;
   border-radius: 5px;
+  display: flex;
+  justify-content: left;
 }
 .modal__content--container--box--div--title {
   font-family: Montserrat;
