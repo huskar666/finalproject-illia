@@ -225,7 +225,7 @@ main {
 .modal {
   display: none; 
   position: fixed;
-  z-index: 999;
+  z-index: 2000;
   left: 0;
   top: 0;
   width: 100%;
@@ -241,12 +241,37 @@ main {
   border-bottom-right-radius: 300px;
   max-width: 930px;
   position: relative;
-
+  margin-top: 30px;
+  margin-bottom: 30px;
   &--img{
     display: flex;
     margin: 0 auto;
     padding-top: 62px;
   }
+
+  &--box{
+    margin: 0 auto;
+    max-width: 258px;
+    padding-top: 45px;
+    padding-bottom: 62px;
+
+          &--button{
+      color: #4C00FE;
+      background-color: rgba(0,0,0,0);
+      border-color: #4C00FE;
+      border-radius: 5px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+  }
+
   &--container{
     margin: 0 auto;
     max-width: 870px;
@@ -260,6 +285,29 @@ main {
       flex-direction: column;
       align-items: left;
       &--div{
+        
+        &--in{
+          display: flex;
+          justify-content: space-between;
+          max-width: 250px;
+          font-family: Montserrat;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 100%;
+          letter-spacing: 0%;
+          padding-top: 7px;
+          padding-bottom: 20px;
+        }
+            &--button{
+              padding-top: 10px;
+              padding-bottom: 10px;
+              padding-left: 19px;
+              padding-right: 19px;
+              border: none;
+              background-color: #4C00FE;
+              color: white;
+              border-radius: 5px;
+          }
         padding-bottom: 20px;
               &--title{
                   font-family: Montserrat;
