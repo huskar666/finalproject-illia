@@ -111,6 +111,7 @@
   }
   body .main__container--div--card--photo--img {
     max-width: 128px !important;
+    height: 161px !important;
   }
   body .main__container--div--card--photo--svg {
     padding-left: 29px !important;
@@ -278,6 +279,10 @@ main .main__container--div--card, main .main__container--div1--card, main .main_
 }
 main .main__container--div--card--photo--img, main .main__container--div1--card--photo--img, main .main__container--div2--card--photo--img, main .main__container--div3--card--photo--img, main .main__container--div4--card--photo--img {
   padding-top: 13px;
+  width: 180px;
+  height: 227px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 main .main__container--div--card--photo--svg, main .main__container--div1--card--photo--svg, main .main__container--div2--card--photo--svg, main .main__container--div3--card--photo--svg, main .main__container--div4--card--photo--svg {
   z-index: 1000;
@@ -308,6 +313,9 @@ main .main__container--div--card--container, main .main__container--div1--card--
   max-width: 137px;
   align-items: center;
 }
+main .main__container--div--card--container--svg, main .main__container--div1--card--container--svg, main .main__container--div2--card--container--svg, main .main__container--div3--card--container--svg, main .main__container--div4--card--container--svg {
+  width: 7px;
+}
 main .main__container--div--card--container--p1, main .main__container--div1--card--container--p1, main .main__container--div2--card--container--p1, main .main__container--div3--card--container--p1, main .main__container--div4--card--container--p1 {
   font-family: Montserrat;
   font-weight: 600;
@@ -315,6 +323,7 @@ main .main__container--div--card--container--p1, main .main__container--div1--ca
   text-align: center;
   color: white;
   padding-left: 3px;
+  width: 127px;
 }
 main .main__container--nav {
   max-width: 280px;
@@ -367,6 +376,20 @@ main .main__container--nav--dot {
 .main__container--nav button.active {
   border-color: #DC56C5 !important;
   color: #DC56C5 !important;
+}
+.main__container--nav-button {
+  padding: 5px 12px 5px 12px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: rgba(255, 165, 0, 0);
+  color: white;
+  border-color: rgba(255, 165, 0, 0);
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .modal {

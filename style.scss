@@ -112,8 +112,13 @@ main {
         position: relative;
 
         &--photo {
+
           &--img {
             padding-top: 13px;
+            width: 180px;
+            height: 227px;
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
           }
 
           &--svg {
@@ -148,6 +153,10 @@ main {
           justify-content: space-between;
           max-width: 137px;  
           align-items: center;
+
+          &--svg{
+            width: 7px;
+          }
           &--p1 {
             font-family: Montserrat;
             font-weight: 600;
@@ -155,6 +164,7 @@ main {
             text-align: center;
             color: white;
             padding-left: 3px;
+            width: 127px;
           }
         }
       }
@@ -220,6 +230,22 @@ main {
   button.active {
     border-color: #DC56C5 !important;
     color: #DC56C5 !important;
+  }
+
+  &-button{
+    padding: 5px 12px 5px 12px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgba(255, 165, 0, 0); 
+    color: white;
+    border-color: rgba(255, 165, 0, 0);
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
   }
 }
 .modal {
