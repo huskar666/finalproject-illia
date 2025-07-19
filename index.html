@@ -1,128 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header class="header">
-            <div class="header__div">
-            <img class="header__div--logo" src="./img/logo.png" alt="logo">
-            <div class="header__div--navigation">
-                <h1 class="header__div--navigation--title">FIND BEST EVENTS AROUND THE WORLD</h1>
-                <div class="header__div--navigation--inputs">
-                    <div class="header__div--navigation--inputs--input">
-                        <input type="text" class="header__div--navigation--inputs--input--text" placeholder="Start searching">
-                        <span class="header__div--navigation--inputs--input--span"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.509 1.50905C2.48213 0.535922 3.77595 0 5.15213 0C6.52831 0 7.82213 0.535922 8.79523 1.50905C9.76833 2.48215 10.3043 3.77597 10.3043 5.15213C10.3043 6.41032 9.85606 7.59949 9.03556 8.53786L11.8969 11.3992C12.0343 11.5366 12.0343 11.7595 11.8969 11.8969C11.8282 11.9656 11.7381 12 11.648 12C11.558 12 11.4679 11.9656 11.3992 11.8969L8.53786 9.03558C7.59949 9.85606 6.41032 10.3043 5.15213 10.3043C3.77592 10.3043 2.48215 9.76838 1.50902 8.79525C0.535922 7.82215 9.53674e-07 6.52833 9.53674e-07 5.15215C9.53674e-07 3.77597 0.535899 2.48215 1.509 1.50905ZM2.00672 8.29755C3.74112 10.0319 6.56311 10.0319 8.29751 8.29755C10.0319 6.56318 10.0319 3.74114 8.29751 2.00677C7.43023 1.13948 6.29135 0.705984 5.1521 0.705984C4.01313 0.705984 2.87379 1.1397 2.0067 2.00677C0.272367 3.74112 0.272367 6.56316 2.00672 8.29755Z" fill="#939393"/>
-                            </svg>
-                        </span>
-                    </div>
-                    <div class="header__div--navigation--inputs--input1">
-                        <input type="text" class="header__div--navigation--inputs--input--text" placeholder="Choose country">
-                        <span class="header__div--navigation--inputs--input--span1">
-                            <svg class="header__div--navigation--inputs--input--span1--svg" width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6.5 8L0.00480968 0.5L12.9952 0.499999L6.5 8Z" fill="#939393"/>
-                        </svg></span>
-                    </div>
+      <div class="header__div">
+        <img class="header__div--logo" src="./img/logo.png" alt="logo" />
+        <div class="header__div--navigation">
+          <h1 class="header__div--navigation--title">
+            FIND BEST EVENTS AROUND THE WORLD
+          </h1>
+          <div class="header__div--navigation--inputs">
+            <div class="header__div--navigation--inputs--input">
+              <input
+                type="text"
+                class="header__div--navigation--inputs--input--text1"
+                placeholder="Start searching"
+              />
+              <span class="header__div--navigation--inputs--input--span"
+                ><svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.509 1.50905C2.48213 0.535922 3.77595 0 5.15213 0C6.52831 0 7.82213 0.535922 8.79523 1.50905C9.76833 2.48215 10.3043 3.77597 10.3043 5.15213C10.3043 6.41032 9.85606 7.59949 9.03556 8.53786L11.8969 11.3992C12.0343 11.5366 12.0343 11.7595 11.8969 11.8969C11.8282 11.9656 11.7381 12 11.648 12C11.558 12 11.4679 11.9656 11.3992 11.8969L8.53786 9.03558C7.59949 9.85606 6.41032 10.3043 5.15213 10.3043C3.77592 10.3043 2.48215 9.76838 1.50902 8.79525C0.535922 7.82215 9.53674e-07 6.52833 9.53674e-07 5.15215C9.53674e-07 3.77597 0.535899 2.48215 1.509 1.50905ZM2.00672 8.29755C3.74112 10.0319 6.56311 10.0319 8.29751 8.29755C10.0319 6.56318 10.0319 3.74114 8.29751 2.00677C7.43023 1.13948 6.29135 0.705984 5.1521 0.705984C4.01313 0.705984 2.87379 1.1397 2.0067 2.00677C0.272367 3.74112 0.272367 6.56316 2.00672 8.29755Z"
+                    fill="#939393"
+                  />
+                </svg>
+              </span>
+            </div>
+
+            <div class="header__div--navigation--inputs--input2">
+              <div class="header__div--navigation--inputs--input2--selected">
+                <span
+                  class="header__div--navigation--inputs--input2--selected-text"
+                  >Choose Country</span
+                >
+                <img
+                  src="./img/Polygon 1.png"
+                  alt="Polygon"
+                  class="header__div--navigation--inputs--input2--polygon-icon"
+                />
+              </div>
+              <div class="header__div--navigation--inputs--input2--options">
+                <div
+                  class="header__div--navigation--inputs--input2--option"
+                  data-country-code="PL"
+                >
+                  Poland
                 </div>
+                <div
+                  class="header__div--navigation--inputs--input2--option"
+                  data-country-code="UA"
+                >
+                  Ukraine
+                </div>
+                <div
+                  class="header__div--navigation--inputs--input2--option"
+                  data-country-code="DE"
+                >
+                  Germany
+                </div>
+                <div
+                  class="header__div--navigation--inputs--input2--option"
+                  data-country-code="US"
+                >
+                  USA
+                </div>
+                <div
+                  class="header__div--navigation--inputs--input2--option"
+                  data-country-code="FR"
+                >
+                  France
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </header>
-    <main class="main">  
-        <section class="main__container"  id="cardsContainer">
-                <div class="main__container--div--card">
-                   
-                </div>        
-        </section>
-        <div class="main__container--nav" id="pagination">
-                <button class="main__container--nav-button1" id="btn1">1</button>
-                <button class="main__container--nav-button2" id="btn2">2</button>
-                <button class="main__container--nav-button3" id="btn3">3</button>
-                <button class="main__container--nav-button4" id="btn4">4</button>
-                <button class="main__container--nav-button5" id="btn5">5</button>
-                <p class="main__container--nav--dot">...</p>
-                <button class="main__container--nav-button6" id="btn6">29</button>
-            </div>
+    <main class="main">
+      <section class="main__container" id="cardsContainer">
+        <div class="main__container--div--card"></div>
+      </section>
+      <div class="main__container--nav" id="pagination">
+        <button class="main__container--nav-button1" id="btn1">1</button>
+        <button class="main__container--nav-button2" id="btn2">2</button>
+        <button class="main__container--nav-button3" id="btn3">3</button>
+        <button class="main__container--nav-button4" id="btn4">4</button>
+        <button class="main__container--nav-button5" id="btn5">5</button>
+        <p class="main__container--nav--dot">...</p>
+        <button class="main__container--nav-button6" id="btn6">29</button>
+      </div>
     </main>
     <footer>
-        <p class="footer">© 2021 | All Rights Reserved | Developed with ♥ by GoIT Students</p>
+      <p class="footer">
+        © 2021 | All Rights Reserved | Developed with ♥ by GoIT Students
+      </p>
     </footer>
-        <div class="modal" id="myModal">
-  <div class="modal__content">
-    <div class="modal__close">
-      <svg class="modal__close--svg" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1.28557 25C0.95625 25 0.626931 24.8747 0.376724 24.6227C-0.125574 24.1204 -0.125574 23.306 0.376724 22.8038L22.8043 0.376714C23.3066 -0.125571 24.121 -0.125571 24.6233 0.376714C25.1256 0.878999 25.1256 1.69333 24.6233 2.19593L2.19598 24.6227C1.94389 24.8732 1.61457 25 1.28557 25Z" fill="#4C00FE"/>
-        <path d="M23.7147 25C23.3854 25 23.0564 24.8747 22.8059 24.6227L0.376724 2.19593C-0.125574 1.69333 -0.125574 0.878999 0.376724 0.376714C0.879022 -0.125571 1.69337 -0.125571 2.19598 0.376714L24.6233 22.8038C25.1256 23.306 25.1256 24.1204 24.6233 24.6227C24.3712 24.8732 24.0422 25 23.7147 25Z" fill="#4C00FE"/>
-      </svg>
-    </div>
-          <img class="modal__content--img" src="./img/pic circle.png" alt="logo">
-          <div class="modal__content--container">
-            <div class="modal__content--container--box">
-                <img class="modal__content--container--box--img" src="./img/pic (3).png" alt="photo">
-            </div>
-            <div class="modal__content--container--box">
-                <div class="modal__content--container--box--div">
-                    <h3 class="modal__content--container--box--div--title">INFO</h3>
-                    <p class="modal__content--container--box--div--text"> Atlas Weekend is the largest music festival
-                        in Ukraine.More than 200 artists will create
-                        a proper music festival atmosphere on 10 stages</p> </div>
-                                    <div class="modal__content--container--box--div">
-                    <h3 class="modal__content--container--box--div--title">WHEN </h3>
-                    <p class="modal__content--container--box--div--text">2021-06-09 </p> 
-                                    <p class="modal__content--container--box--div--text">20:00 (Kyiv/Ukraine) </p></div>
-                                    <div class="modal__content--container--box--div">
-                    <h3 class="modal__content--container--box--div--title"> WHERE</h3>
-                    <p class="modal__content--container--box--div--text"> Kyiv, Ukraine </p> 
-                    <p class="modal__content--container--box--div--text"> VDNH </p></div>
-                    <div class="modal__content--container--box--div">
-                    <h3 class="modal__content--container--box--div--title">WHO </h3>
-                    <p class="modal__content--container--box--div--text">The Black Eyed Peas </p> </div>
-                    <div class="modal__content--container--box--div">
-                        <h3 class="modal__content--container--box--div--title">PRICES </h3>
-                          <div class="modal__content--container--box--div--in">
-                             <svg class="modal__content--container--box--div--in--svg" width="29" height="21" viewBox="0 0 29 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.22222 0.833496L0 0.833496L0 20.1668H3.22222L3.22222 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M11.3266 0.833496L8.10439 0.833496L8.10439 20.1668H11.3266L11.3266 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M16.2088 0.833496L12.9866 0.833496L12.9866 20.1668H16.2088L16.2088 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M28.9999 0.833496L24.2154 0.833496L24.2154 20.1668H28.9999L28.9999 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M6.44449 0.833496L4.88219 0.833496L4.88219 20.1668H6.44449L6.44449 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M19.3333 0.833496L17.771 0.833496L17.771 20.1668H19.3333L19.3333 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M22.5555 0.833496L20.9932 0.833496L20.9932 20.1668H22.5555L22.5555 0.833496Z" fill="#0E0E0E"/>
-                        </svg>
-                        <p class="modal__content--container--box--div--text1">Standart 300-500 UAH </p>
-                          </div>  
-                          <button class="modal__content--container--box--div--button">BUY TICKETS</button>
-                             </div>
-                        <div class="modal__content--container--box--div">
-                        <h3 class="modal__content--container--box--div--title">PRICES </h3>
-                          <div class="modal__content--container--box--div--in1">
-                             <svg class="modal__content--container--box--div--in1--svg" width="29" height="21" viewBox="0 0 29 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.22222 0.833496L0 0.833496L0 20.1668H3.22222L3.22222 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M11.3266 0.833496L8.10439 0.833496L8.10439 20.1668H11.3266L11.3266 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M16.2088 0.833496L12.9866 0.833496L12.9866 20.1668H16.2088L16.2088 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M28.9999 0.833496L24.2154 0.833496L24.2154 20.1668H28.9999L28.9999 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M6.44449 0.833496L4.88219 0.833496L4.88219 20.1668H6.44449L6.44449 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M19.3333 0.833496L17.771 0.833496L17.771 20.1668H19.3333L19.3333 0.833496Z" fill="#0E0E0E"/>
-                        <path d="M22.5555 0.833496L20.9932 0.833496L20.9932 20.1668H22.5555L22.5555 0.833496Z" fill="#0E0E0E"/>
-                        </svg>
-                        <p class="modal__content--container--box--div--text1">VIP 1000-1500 UAH </p>
-                          </div>  
-                          <button class="modal__content--container--box--div--button">BUY TICKETS</button>
-                             </div>
-                    </div>
-                </div> 
-                <div class="modal__content--box">
-                    <button class="modal__content--box--button">MORE FROM THIS AUTHOR</button>
-                </div>
-                </div>
-                </div>
-                </div>
+    <div class="modal" id="myModal">
+      <div class="modal__content">
+        <div class="modal__close">
+          <svg
+            class="modal__close--svg"
+            width="25"
+            height="25"
+            viewBox="0 0 25 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.28557 25C0.95625 25 0.626931 24.8747 0.376724 24.6227C-0.125574 24.1204 -0.125574 23.306 0.376724 22.8038L22.8043 0.376714C23.3066 -0.125571 24.121 -0.125571 24.6233 0.376714C25.1256 0.878999 25.1256 1.69333 24.6233 2.19593L2.19598 24.6227C1.94389 24.8732 1.61457 25 1.28557 25Z"
+              fill="#4C00FE"
+            />
+            <path
+              d="M23.7147 25C23.3854 25 23.0564 24.8747 22.8059 24.6227L0.376724 2.19593C-0.125574 1.69333 -0.125574 0.878999 0.376724 0.376714C0.879022 -0.125571 1.69337 -0.125571 2.19598 0.376714L24.6233 22.8038C25.1256 23.306 25.1256 24.1204 24.6233 24.6227C24.3712 24.8732 24.0422 25 23.7147 25Z"
+              fill="#4C00FE"
+            />
+          </svg>
+        </div>
+        <img
+          class="modal__content--img"
+          src="./img/pic circle.png"
+          alt="logo"
+        />
+        <div class="modal__content--container">
+          <div class="modal__content--container--box">
+            <img
+              class="modal__content--container--box--img"
+              src="./img/pic (3).png"
+              alt="photo"
+            />
           </div>
-  </div>
-</div>
+          <div class="modal__content--container--box">
+            <div class="modal__content--container--box--div">
+              <h3 class="modal__content--container--box--div--title">INFO</h3>
+              <p class="modal__content--container--box--div--text">
+                Atlas Weekend is the largest music festival in Ukraine.More than
+                200 artists will create a proper music festival atmosphere on 10
+                stages
+              </p>
+            </div>
+            <div class="modal__content--container--box--div">
+              <h3 class="modal__content--container--box--div--title">WHEN</h3>
+              <p class="modal__content--container--box--div--text">
+                2021-06-09
+              </p>
+              <p class="modal__content--container--box--div--text">
+                20:00 (Kyiv/Ukraine)
+              </p>
+            </div>
+            <div class="modal__content--container--box--div">
+              <h3 class="modal__content--container--box--div--title">WHERE</h3>
+              <p class="modal__content--container--box--div--text">
+                Kyiv, Ukraine
+              </p>
+              <p class="modal__content--container--box--div--text">VDNH</p>
+            </div>
+            <div class="modal__content--container--box--div">
+              <h3 class="modal__content--container--box--div--title">WHO</h3>
+              <p class="modal__content--container--box--div--text">
+                The Black Eyed Peas
+              </p>
+            </div>
+            <div class="modal__content--container--box--div">
+              <h3 class="modal__content--container--box--div--title">PRICES</h3>
+              <div class="modal__content--container--box--div--in">
+                <svg
+                  class="modal__content--container--box--div--in--svg"
+                  width="29"
+                  height="21"
+                  viewBox="0 0 29 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.22222 0.833496L0 0.833496L0 20.1668H3.22222L3.22222 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M11.3266 0.833496L8.10439 0.833496L8.10439 20.1668H11.3266L11.3266 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M16.2088 0.833496L12.9866 0.833496L12.9866 20.1668H16.2088L16.2088 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M28.9999 0.833496L24.2154 0.833496L24.2154 20.1668H28.9999L28.9999 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M6.44449 0.833496L4.88219 0.833496L4.88219 20.1668H6.44449L6.44449 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M19.3333 0.833496L17.771 0.833496L17.771 20.1668H19.3333L19.3333 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M22.5555 0.833496L20.9932 0.833496L20.9932 20.1668H22.5555L22.5555 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                </svg>
+                <p class="modal__content--container--box--div--text1">
+                  Standart 300-500 UAH
+                </p>
+              </div>
+              <button class="modal__content--container--box--div--button">
+                BUY TICKETS
+              </button>
+            </div>
+            <div class="modal__content--container--box--div">
+              <h3 class="modal__content--container--box--div--title">PRICES</h3>
+              <div class="modal__content--container--box--div--in1">
+                <svg
+                  class="modal__content--container--box--div--in1--svg"
+                  width="29"
+                  height="21"
+                  viewBox="0 0 29 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.22222 0.833496L0 0.833496L0 20.1668H3.22222L3.22222 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M11.3266 0.833496L8.10439 0.833496L8.10439 20.1668H11.3266L11.3266 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M16.2088 0.833496L12.9866 0.833496L12.9866 20.1668H16.2088L16.2088 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M28.9999 0.833496L24.2154 0.833496L24.2154 20.1668H28.9999L28.9999 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M6.44449 0.833496L4.88219 0.833496L4.88219 20.1668H6.44449L6.44449 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M19.3333 0.833496L17.771 0.833496L17.771 20.1668H19.3333L19.3333 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                  <path
+                    d="M22.5555 0.833496L20.9932 0.833496L20.9932 20.1668H22.5555L22.5555 0.833496Z"
+                    fill="#0E0E0E"
+                  />
+                </svg>
+                <p class="modal__content--container--box--div--text1">
+                  VIP 1000-1500 UAH
+                </p>
+              </div>
+              <button class="modal__content--container--box--div--button">
+                BUY TICKETS
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="modal__content--box">
+          <button class="modal__content--box--button">
+            MORE FROM THIS AUTHOR
+          </button>
+        </div>
+      </div>
+    </div>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
